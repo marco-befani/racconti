@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>I Sotterranei degli Uffizi — Personaggi | La Corte di Sangue</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,500;0,600;1,400&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<header>
+  <a href="../index.html" class="brand" style="text-decoration:none;">M.B.</a>
+  <nav>
+    <a href="#personaggi">Personaggi</a>
+    <a href="#clan">Clan</a>
+    <a href="../index.html">Torna al sito</a>
+  </nav>
+</header>
+
+<section class="hero hero-book" style="background:none;">
+  <div class="eyebrow">La Corte di Sangue</div>
+  <h1>I Sotterranei <em>degli Uffizi</em></h1>
+  <p class="subtitle">Otto volti, sette Clan, un equilibrio che sta per rompersi.</p>
+  <div class="cta-row">
+    <a class="btn solid" href="#personaggi">I personaggi</a>
+    <a class="btn" href="https://amzn.eu/d/0h1EEmq0" target="_blank" rel="noopener">Acquista su Amazon</a>
+  </div>
+  <div class="hero-fade"></div>
+</section>
+
+<section id="personaggi" class="characters">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Il Consiglio</div>
+      <h2>Personaggi</h2>
+      <p>Clicca su un ritratto per aprirlo e leggere di più.</p>
+    </div>
+
+    <div class="characters-grid reveal">
+
+      <button class="character-thumb" data-name="Il Duca" data-role="Ferdinando di Borbone · Clan Dominor" data-img="../images/libri/sotterranei-uffizi/personaggio-il-duca.jpg" data-desc="Firenze non è il suo dominio: è lui. Da quando è arrivato in città, secoli fa, ha smesso di distinguere il proprio nome da quello della città che governa. Non alza mai la voce — non ne ha bisogno. Chi lo osserva da vicino impara presto che il suo silenzio pesa più di qualsiasi minaccia.">
+        <div class="character-portrait"><img src="../images/libri/sotterranei-uffizi/personaggio-il-duca.jpg" alt="Ritratto de Il Duca"></div>
+        <div class="character-copy">
+          <h3>Il Duca</h3>
+          <span class="role">Clan Dominor</span>
+        </div>
+      </button>
+
+      <button class="character-thumb" data-name="Dorian Black" data-role="Clan Florian" data-img="../images/libri/sotterranei-uffizi/personaggio-dorian-black.jpeg" data-desc="Elegante come un'opera d'arte che ha deciso di camminare. Per lui il Velo non è un obbligo ma una forma di teatro perfetto, e Firenze un palcoscenico da osservare da ogni angolazione possibile. Dietro il sorriso raffinato, uno sguardo che valuta ogni cosa — e ogni persona — come un pezzo da collezione.">
+        <div class="character-portrait"><img src="../images/libri/sotterranei-uffizi/personaggio-dorian-black.jpeg" alt="Ritratto di Dorian Black"></div>
+        <div class="character-copy">
+          <h3>Dorian Black</h3>
+          <span class="role">Clan Florian</span>
+        </div>
+      </button>
+
+      <button class="character-thumb" data-name="Ascelin" data-role="Siniscalco del Duca · Clan Dominor" data-img="../images/libri/sotterranei-uffizi/personaggio-ascelin.jpg" data-desc="Siniscalco del Duca. Ogni gesto calcolato, ogni parola misurata: la sua compostezza è un'arma tanto quanto una corazza. Serve il potere da vicinissimo, e proprio per questo conosce meglio di chiunque altro il prezzo di stargli così vicino.">
+        <div class="character-portrait"><img src="../images/libri/sotterranei-uffizi/personaggio-ascelin.jpg" alt="Ritratto di Ascelin"></div>
+        <div class="character-copy">
+          <h3>Ascelin</h3>
+          <span class="role">Clan Dominor</span>
+        </div>
+      </button>
+
+      <button class="character-thumb" data-name="Lunaris" data-role="Clan Arcanis" data-img="../images/libri/sotterranei-uffizi/personaggio-lunaris.jpg" data-desc="Entra in una stanza e la temperatura sembra scendere. Fredda, calcolatrice, legata a un ordine che risponde a logiche lontane da Firenze. Ciò che porta con sé — e ciò che nasconde — è più antico di quanto chiunque al Consiglio sospetti.">
+        <div class="character-portrait"><img src="../images/libri/sotterranei-uffizi/personaggio-lunaris.jpg" alt="Ritratto di Lunaris"></div>
+        <div class="character-copy">
+          <h3>Lunaris</h3>
+          <span class="role">Clan Arcanis</span>
+        </div>
+      </button>
+
+      <button class="character-thumb" data-name="Teodoro Bonanni d'Ocre" data-role="Clan Graven" data-img="../images/libri/sotterranei-uffizi/personaggio-teodoro-bonanni-docre.jpeg" data-desc="Porta con sé l'odore della terra bagnata e qualcosa di ancora più selvatico. È l'elemento imprevedibile del Consiglio, il punto in cui il marmo dei palazzi cede il passo a una natura che nessuno controlla davvero — nemmeno lui.">
+        <div class="character-portrait"><img src="../images/libri/sotterranei-uffizi/personaggio-teodoro-bonanni-docre.jpeg" alt="Ritratto di Teodoro Bonanni d'Ocre"></div>
+        <div class="character-copy">
+          <h3>Teodoro Bonanni d'Ocre</h3>
+          <span class="role">Clan Graven</span>
+        </div>
+      </button>
+
+      <button class="character-thumb" data-name="Rune Delbridge" data-role="Clan Umbral" data-img="../images/libri/sotterranei-uffizi/personaggio-rune-delbridge.jpeg" data-desc="Non lo si vede arrivare. Le sue orecchie raccolgono ogni segreto che Firenze sussurra nell'ombra, e ciò che sa non lo condivide mai per intero. Osserva, riconosce pattern che gli altri non vedono ancora, e tace.">
+        <div class="character-portrait"><img src="../images/libri/sotterranei-uffizi/personaggio-rune-delbridge.jpeg" alt="Ritratto di Rune Delbridge"></div>
+        <div class="character-copy">
+          <h3>Rune Delbridge</h3>
+          <span class="role">Clan Umbral</span>
+        </div>
+      </button>
+
+      <button class="character-thumb" data-name="Artemisia Van Alen" data-role="Clan Kaeros" data-img="../images/libri/sotterranei-uffizi/personaggio-artemisia-van-alen.jpeg" data-desc="Impaziente, diretta, incapace di fingere un rispetto che non prova. Siede al tavolo del Consiglio non per fedeltà, ma per tenere d'occhio chi comanda. Ogni sua parola ha il taglio di chi ha smesso da tempo di credere alle buone maniere del potere.">
+        <div class="character-portrait"><img src="../images/libri/sotterranei-uffizi/personaggio-artemisia-van-alen.jpeg" alt="Ritratto di Artemisia Van Alen"></div>
+        <div class="character-copy">
+          <h3>Artemisia Van Alen</h3>
+          <span class="role">Clan Kaeros</span>
+        </div>
+      </button>
+
+      <button class="character-thumb" data-name="Freya" data-role="Clan Dravic" data-img="../images/libri/sotterranei-uffizi/personaggio-freya.jpg" data-desc="Il suo sguardo raramente è nella stanza in cui si trova il suo corpo. Vede cose che gli altri percepiranno solo più avanti — un dono che è anche una condanna. Tra i Sette è la più fragile in apparenza, e forse la più pericolosa in sostanza.">
+        <div class="character-portrait"><img src="../images/libri/sotterranei-uffizi/personaggio-freya.jpg" alt="Ritratto di Freya"></div>
+        <div class="character-copy">
+          <h3>Freya</h3>
+          <span class="role">Clan Dravic</span>
+        </div>
+      </button>
+
+    </div>
+  </div>
+</section>
+
+<section id="clan" class="clans">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Gli Anziani</div>
+      <h2>I Sette Clan</h2>
+      <p>Ogni Clan porta un simbolo, un'eredità, un posto al Consiglio.</p>
+    </div>
+    <div class="clans-grid reveal">
+
+      <button class="clan-card clan-thumb" data-name="Dominor" data-role="Il Clan dei Re" data-img="../images/libri/sotterranei-uffizi/clan-dominor.jpg" data-desc="Il sangue del comando. I Dominor nascono per governare, o almeno per convincersi di poterlo fare: dinastie, palazzi, gerarchie invisibili che tengono in piedi intere città. C'è chi tra loro possiede una voce a cui è quasi impossibile opporre un rifiuto, e chi si muove con una rapidità che il corpo umano non dovrebbe possedere. Il potere, per un Dominor, non è mai improvvisato: è costruito, mattone su mattone, nel corso di generazioni.">
+        <div class="clan-crest"><img src="../images/libri/sotterranei-uffizi/clan-dominor.jpg" alt="Stemma Clan Dominor"></div>
+      </button>
+
+      <button class="clan-card clan-thumb" data-name="Florian" data-role="Il Clan della Rosa" data-img="../images/libri/sotterranei-uffizi/clan-florian.jpg" data-desc="Il sangue della bellezza e dell'inganno. I Florian vivono per l'estetica come altri vivono per la sopravvivenza, e nel loro mondo le due cose finiscono spesso per coincidere. Sensi affinati oltre il naturale, capaci di cogliere ciò che sfugge a chiunque altro nella stanza. Alcuni riescono a piegare lo stato d'animo di chi hanno intorno — calma, soggezione, ammirazione — con la stessa naturalezza con cui altri piegano un pennello sulla tela.">
+        <div class="clan-crest"><img src="../images/libri/sotterranei-uffizi/clan-florian.jpg" alt="Stemma Clan Florian"></div>
+      </button>
+
+      <button class="clan-card clan-thumb" data-name="Arcanis" data-role="Il Clan degli Usurpatori" data-img="../images/libri/sotterranei-uffizi/clan-arcanis.jpg" data-desc="Il sangue rubato. Gli Arcanis non sono nati immortali per diritto di sangue antico: hanno strappato il segreto a qualcun altro, e da allora vivono con la disciplina ossessiva di chi sa di dover difendere ciò che ha preso. Il loro potere passa attraverso rituali, gerarchie rigide, un controllo che si estende oltre la semplice volontà — fino a comandare con un solo sguardo, o a piegare il sangue stesso a scopi che pochi altri osano nominare.">
+        <div class="clan-crest"><img src="../images/libri/sotterranei-uffizi/clan-arcanis.jpg" alt="Stemma Clan Arcanis"></div>
+      </button>
+
+      <button class="clan-card clan-thumb" data-name="Umbral" data-role="Il Clan dei Nascosti" data-img="../images/libri/sotterranei-uffizi/clan-umbral.jpg" data-desc="Il sangue della maledizione. Ciò che rende gli Umbral temuti non è solo la loro deformità — un prezzo fisico pagato per l'immortalità — ma la loro capacità di scomparire. Non semplicemente nell'ombra: dall'attenzione stessa. Chi li cerca smette di guardare nella direzione giusta, come se qualcosa deviasse lo sguardo prima ancora che la mente se ne accorga. Sotto le vesti pesanti e i volti nascosti si cela una forza fisica che sorprende chiunque sottovaluti la loro apparenza.">
+        <div class="clan-crest"><img src="../images/libri/sotterranei-uffizi/clan-umbral.jpg" alt="Stemma Clan Umbral"></div>
+      </button>
+
+      <button class="clan-card clan-thumb" data-name="Graven" data-role="Il Clan della Bestia" data-img="../images/libri/sotterranei-uffizi/clan-graven.jpg" data-desc="Il sangue selvatico. I Graven sono i nomadi della stirpe, quelli che non hanno mai davvero smesso di appartenere alla terra più che ai palazzi. Riescono a entrare in una sintonia innaturale con gli animali, e in loro convive qualcosa di più antico e feroce, pronto a emergere in artigli o in una forma che non è più del tutto umana né del tutto bestia. Sono l'imprevedibilità fatta persona — il confine sottile tra civiltà e istinto.">
+        <div class="clan-crest"><img src="../images/libri/sotterranei-uffizi/clan-graven.jpg" alt="Stemma Clan Graven"></div>
+      </button>
+
+      <button class="clan-card clan-thumb" data-name="Dravic" data-role="Il Clan della Luna" data-img="../images/libri/sotterranei-uffizi/clan-dravic.jpg" data-desc="Il sangue della visione. I Dravic pagano la loro percezione con un prezzo che nessun altro clan conosce: vedono ciò che il resto del mondo non vede, entrano in contatto con una dimensione che sfugge ai sensi ordinari. Alcuni di loro possono spingersi oltre — dentro la mente altrui, dove nessun segreto resta davvero al sicuro. Il confine tra dono e follia, per un Dravic, è sempre stato più sottile di quanto chiunque vorrebbe ammettere.">
+        <div class="clan-crest"><img src="../images/libri/sotterranei-uffizi/clan-dravic.jpg" alt="Stemma Clan Dravic"></div>
+      </button>
+
+      <button class="clan-card clan-thumb" data-name="Kaeros" data-role="Il Clan della Canaglia" data-img="../images/libri/sotterranei-uffizi/clan-kaeros.jpg" data-desc="Il sangue della rivolta. Un tempo filosofi, oggi ribelli: i Kaeros portano dentro un'energia che raramente riesce a stare ferma. Il loro corpo può nascondere una potenza fisica sproporzionata rispetto all'aspetto — muscoli e violenza latente sotto una scorza che inganna chiunque li giudichi a prima vista. Odiano l'autorità che non si è guadagnata sul campo, e lo dimostrano, se necessario, con la forza.">
+        <div class="clan-crest"><img src="../images/libri/sotterranei-uffizi/clan-kaeros.jpg" alt="Stemma Clan Kaeros"></div>
+      </button>
+
+    </div>
+  </div>
+</section>
+
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <div class="lightbox-backdrop" data-close></div>
+  <div class="lightbox-panel">
+    <button class="lightbox-close" data-close aria-label="Chiudi">✕</button>
+    <div class="lightbox-media"><img id="lightbox-img" src="" alt=""></div>
+    <div class="lightbox-info">
+      <div class="eyebrow" id="lightbox-role"></div>
+      <h3 id="lightbox-name"></h3>
+      <p id="lightbox-desc"></p>
+    </div>
+  </div>
+</div>
+
+<footer>
+  © 2026 Marco Befani. Tutti i diritti riservati.
+</footer>
+
+<script>
+  const revealEls = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{
+      if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); }
+    });
+  }, {threshold:0.15});
+  revealEls.forEach(el=>io.observe(el));
+
+  const lightbox = document.getElementById('lightbox');
+  const lbImg = document.getElementById('lightbox-img');
+  const lbName = document.getElementById('lightbox-name');
+  const lbRole = document.getElementById('lightbox-role');
+  const lbDesc = document.getElementById('lightbox-desc');
+  let lastFocused = null;
+
+  function openLightbox(btn){
+    lastFocused = btn;
+    lbImg.src = btn.dataset.img;
+    lbImg.alt = btn.dataset.name;
+    lbName.textContent = btn.dataset.name;
+    lbRole.textContent = btn.dataset.role;
+    lbDesc.textContent = btn.dataset.desc;
+    lightbox.classList.add('open');
+    lightbox.setAttribute('aria-hidden','false');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeLightbox(){
+    lightbox.classList.remove('open');
+    lightbox.setAttribute('aria-hidden','true');
+    document.body.style.overflow = '';
+    if(lastFocused){ lastFocused.focus(); }
+  }
+  document.querySelectorAll('.character-thumb, .clan-thumb').forEach(btn=>{
+    btn.addEventListener('click', ()=>openLightbox(btn));
+  });
+  document.querySelectorAll('[data-close]').forEach(el=>{
+    el.addEventListener('click', closeLightbox);
+  });
+  document.addEventListener('keydown', e=>{
+    if(e.key === 'Escape' && lightbox.classList.contains('open')) closeLightbox();
+  });
+</script>
+
+</body>
+</html>
