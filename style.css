@@ -258,17 +258,28 @@ footer{
 }
 .clan-card{text-align:center;}
 .clan-crest{
-  aspect-ratio:1/1;
+  aspect-ratio:1/2;
   border:1px solid var(--gold);
   background:linear-gradient(155deg, var(--wine-dark), var(--ink));
   overflow:hidden;
   margin-bottom:12px;
+  transition:border-color .25s, box-shadow .25s;
 }
 .clan-crest img{width:100%; height:100%; object-fit:cover;}
 .clan-card .name{
   font-family:'Jost', sans-serif; font-size:11px; letter-spacing:0.16em; text-transform:uppercase;
   color:var(--gold-light);
 }
+
+/* Clan cliccabile — riusa il lightbox dei personaggi */
+.clan-thumb{
+  background:none; border:none; padding:0; margin:0; font:inherit; color:inherit;
+  cursor:pointer; width:100%; display:block;
+}
+.clan-thumb:hover .clan-crest, .clan-thumb:focus-visible .clan-crest{
+  border-color:var(--gold-light); box-shadow:0 20px 40px -18px rgba(0,0,0,0.7);
+}
+.clan-thumb:focus-visible{outline:1px solid var(--gold-light); outline-offset:4px;}
 
 /* Link di ritorno alla home dalle pagine libro */
 .back-link{
