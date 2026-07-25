@@ -207,6 +207,7 @@ section{padding:110px 0; background:var(--stone);}
 }
 .book-copy-card p{color:var(--parchment-dim); margin-bottom:20px; max-width:44ch;}
 .card-actions{display:flex; gap:14px; flex-wrap:wrap;}
+.protagonisti-cta{text-align:center; margin-top:64px;}
 
 /* EXTRACT */
 .extract{
